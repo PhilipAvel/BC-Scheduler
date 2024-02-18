@@ -1,0 +1,16 @@
+#Database Properties
+
+spring:
+# JDBC Configuration
+    datasource:
+        url: jdbc:mysql://localhost:3306/bicol_save
+        username: root
+        password: philip744547
+        platform: mysql
+        hikari:
+            max-lifetime: 30000
+    jpa:
+        hibernate:
+            ddl-auto: update
+        database: mysql
+        show-sql: true
